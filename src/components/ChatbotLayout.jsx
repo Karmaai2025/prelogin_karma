@@ -108,13 +108,13 @@ export default function ChatbotLayout() {
       const botTime = getTime();
       if (choice === 'Yes') {
         appendMessage('bot', "That's great! To continue, please log in to your member account:", {
-          href: 'https://karma.group/member-login',
+          href: 'https://karmagroup.com/member-login/',
           label: 'Member Login',
           timestamp: botTime
         });
       } else {
         appendMessage('bot', 'No problem! Tap the button below, complete the form, and our team will contact you:', {
-          href: 'https://karma.group/signup',
+          href: 'https://www.karmaexperience.com/RrQF1oUFy48oXtgFYR9ua/',
           label: 'Get Started',
           timestamp: botTime
         });
