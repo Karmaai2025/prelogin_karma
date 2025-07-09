@@ -120,7 +120,7 @@ export default function ChatbotLayout() {
     setTimeout(() => {
       const botTime = getTime();
       if (choice === 'Yes') {
-        appendMessage('bot', "That's great! Please log in to your member account to continue:", {
+        appendMessage('bot', "That's great! Please log in to your Members Lounge to continue:", {
           href: 'https://karmagroup.com/member-login/',
           label: 'Member Login',
           timestamp: botTime
