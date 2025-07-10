@@ -165,15 +165,16 @@ export default function ChatbotLayout() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="w-[471px] h-[500px] bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-        <header className="flex items-center justify-between px-4 py-3 bg-white border-b">
-          <h1 className="text-lg font-semibold text-gray-900">Karma Group</h1>
-          <div
-            onClick={resetChat}
-            className="text-sm text-blue-500 cursor-pointer hover:text-blue-600"
-          >
-            New Chat
-          </div>
-        </header>
+       <header className="flex items-center justify-between px-4 py-3 bg-[#8b6f3d] border-b">
+  <h1 className="text-lg font-semibold text-white">Karma Group</h1>
+  <button
+    onClick={resetChat}
+    className="text-sm text-gray bg-white hover:bg-white px-1 py-1 rounded mr-10"
+  >
+    New Chat
+  </button>
+</header>
+
 
         <main className="flex-1 overflow-y-auto px-4 py-4">
           {messages.map((msg, idx) => (
