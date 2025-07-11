@@ -169,7 +169,7 @@ export default function ChatbotLayout() {
   <h1 className="text-lg font-semibold text-white">Karma Group</h1>
   <button
     onClick={resetChat}
-    className="text-sm text-gray bg-white hover:bg-white px-3 py-1 rounded mr-10"
+    className="text-sm text-gray bg-white hover:bg-white px-3 py-1 rounded mr-8"
   >
     New Chat
   </button>
