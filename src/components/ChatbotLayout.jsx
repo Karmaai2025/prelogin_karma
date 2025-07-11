@@ -23,7 +23,7 @@ const ChatMessage = ({
   return (
     <div className={`flex items-start mb-4 ${sender === 'user' ? 'justify-end' : 'justify-start'}`}>
       {isBot && (
-        <div className="w-8 h-8 mr-3 flex-shrink-0">
+        <div className="w-8 h-8 mt-4 mr-3 flex-shrink-0">
           <img
             src={Logo}
             alt="Bot Logo"
@@ -169,7 +169,7 @@ export default function ChatbotLayout() {
   <h1 className="text-lg font-semibold text-white">Karma Group</h1>
   <button
     onClick={resetChat}
-    className="text-sm text-gray bg-white hover:bg-white px-1 py-1 rounded mr-10"
+    className="text-sm text-gray bg-white hover:bg-white px-3 py-1 rounded mr-10"
   >
     New Chat
   </button>
